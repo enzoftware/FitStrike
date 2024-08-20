@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C61E49D2C743ADE00682149 /* FitStrikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E49C2C743ADE00682149 /* FitStrikeApp.swift */; };
+		2C61E49F2C743ADE00682149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E49E2C743ADE00682149 /* ContentView.swift */; };
+		2C61E4A12C743AE000682149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C61E4A02C743AE000682149 /* Assets.xcassets */; };
+		2C61E4A42C743AE000682149 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C61E4A32C743AE000682149 /* Preview Assets.xcassets */; };
+		2C61E4AE2C743AE000682149 /* FitStrikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E4AD2C743AE000682149 /* FitStrikeTests.swift */; };
+		2C61E4B82C743AE000682149 /* FitStrikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E4B72C743AE000682149 /* FitStrikeUITests.swift */; };
+		2C61E4BA2C743AE000682149 /* FitStrikeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E4B92C743AE000682149 /* FitStrikeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2C61E4AA2C743AE000682149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C61E4912C743ADE00682149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C61E4982C743ADE00682149;
+			remoteInfo = FitStrike;
+		};
+		2C61E4B42C743AE000682149 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2C61E4912C743ADE00682149 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2C61E4982C743ADE00682149;
+			remoteInfo = FitStrike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2C61E4992C743ADE00682149 /* FitStrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitStrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C61E49C2C743ADE00682149 /* FitStrikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStrikeApp.swift; sourceTree = "<group>"; };
+		2C61E49E2C743ADE00682149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2C61E4A02C743AE000682149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C61E4A32C743AE000682149 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2C61E4A92C743AE000682149 /* FitStrikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitStrikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C61E4AD2C743AE000682149 /* FitStrikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStrikeTests.swift; sourceTree = "<group>"; };
+		2C61E4B32C743AE000682149 /* FitStrikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FitStrikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C61E4B72C743AE000682149 /* FitStrikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStrikeUITests.swift; sourceTree = "<group>"; };
+		2C61E4B92C743AE000682149 /* FitStrikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStrikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C61E4962C743ADE00682149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C61E4A62C743AE000682149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C61E4B02C743AE000682149 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C61E4902C743ADE00682149 = {
+			isa = PBXGroup;
+			children = (
+				2C61E49B2C743ADE00682149 /* FitStrike */,
+				2C61E4AC2C743AE000682149 /* FitStrikeTests */,
+				2C61E4B62C743AE000682149 /* FitStrikeUITests */,
+				2C61E49A2C743ADE00682149 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2C61E49A2C743ADE00682149 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C61E4992C743ADE00682149 /* FitStrike.app */,
+				2C61E4A92C743AE000682149 /* FitStrikeTests.xctest */,
+				2C61E4B32C743AE000682149 /* FitStrikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C61E49B2C743ADE00682149 /* FitStrike */ = {
+			isa = PBXGroup;
+			children = (
+				2C61E49C2C743ADE00682149 /* FitStrikeApp.swift */,
+				2C61E49E2C743ADE00682149 /* ContentView.swift */,
+				2C61E4A02C743AE000682149 /* Assets.xcassets */,
+				2C61E4A22C743AE000682149 /* Preview Content */,
+			);
+			path = FitStrike;
+			sourceTree = "<group>";
+		};
+		2C61E4A22C743AE000682149 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2C61E4A32C743AE000682149 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2C61E4AC2C743AE000682149 /* FitStrikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				2C61E4AD2C743AE000682149 /* FitStrikeTests.swift */,
+			);
+			path = FitStrikeTests;
+			sourceTree = "<group>";
+		};
+		2C61E4B62C743AE000682149 /* FitStrikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2C61E4B72C743AE000682149 /* FitStrikeUITests.swift */,
+				2C61E4B92C743AE000682149 /* FitStrikeUITestsLaunchTests.swift */,
+			);
+			path = FitStrikeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C61E4982C743ADE00682149 /* FitStrike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C61E4BD2C743AE000682149 /* Build configuration list for PBXNativeTarget "FitStrike" */;
+			buildPhases = (
+				2C61E4952C743ADE00682149 /* Sources */,
+				2C61E4962C743ADE00682149 /* Frameworks */,
+				2C61E4972C743ADE00682149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FitStrike;
+			productName = FitStrike;
+			productReference = 2C61E4992C743ADE00682149 /* FitStrike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2C61E4A82C743AE000682149 /* FitStrikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C61E4C02C743AE000682149 /* Build configuration list for PBXNativeTarget "FitStrikeTests" */;
+			buildPhases = (
+				2C61E4A52C743AE000682149 /* Sources */,
+				2C61E4A62C743AE000682149 /* Frameworks */,
+				2C61E4A72C743AE000682149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C61E4AB2C743AE000682149 /* PBXTargetDependency */,
+			);
+			name = FitStrikeTests;
+			productName = FitStrikeTests;
+			productReference = 2C61E4A92C743AE000682149 /* FitStrikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2C61E4B22C743AE000682149 /* FitStrikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C61E4C32C743AE000682149 /* Build configuration list for PBXNativeTarget "FitStrikeUITests" */;
+			buildPhases = (
+				2C61E4AF2C743AE000682149 /* Sources */,
+				2C61E4B02C743AE000682149 /* Frameworks */,
+				2C61E4B12C743AE000682149 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2C61E4B52C743AE000682149 /* PBXTargetDependency */,
+			);
+			name = FitStrikeUITests;
+			productName = FitStrikeUITests;
+			productReference = 2C61E4B32C743AE000682149 /* FitStrikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C61E4912C743ADE00682149 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					2C61E4982C743ADE00682149 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					2C61E4A82C743AE000682149 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2C61E4982C743ADE00682149;
+					};
+					2C61E4B22C743AE000682149 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 2C61E4982C743ADE00682149;
+					};
+				};
+			};
+			buildConfigurationList = 2C61E4942C743ADE00682149 /* Build configuration list for PBXProject "FitStrike" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C61E4902C743ADE00682149;
+			productRefGroup = 2C61E49A2C743ADE00682149 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C61E4982C743ADE00682149 /* FitStrike */,
+				2C61E4A82C743AE000682149 /* FitStrikeTests */,
+				2C61E4B22C743AE000682149 /* FitStrikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C61E4972C743ADE00682149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C61E4A42C743AE000682149 /* Preview Assets.xcassets in Resources */,
+				2C61E4A12C743AE000682149 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C61E4A72C743AE000682149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C61E4B12C743AE000682149 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C61E4952C743ADE00682149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C61E49F2C743ADE00682149 /* ContentView.swift in Sources */,
+				2C61E49D2C743ADE00682149 /* FitStrikeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C61E4A52C743AE000682149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C61E4AE2C743AE000682149 /* FitStrikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C61E4AF2C743AE000682149 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C61E4BA2C743AE000682149 /* FitStrikeUITestsLaunchTests.swift in Sources */,
+				2C61E4B82C743AE000682149 /* FitStrikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2C61E4AB2C743AE000682149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C61E4982C743ADE00682149 /* FitStrike */;
+			targetProxy = 2C61E4AA2C743AE000682149 /* PBXContainerItemProxy */;
+		};
+		2C61E4B52C743AE000682149 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2C61E4982C743ADE00682149 /* FitStrike */;
+			targetProxy = 2C61E4B42C743AE000682149 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2C61E4BB2C743AE000682149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2C61E4BC2C743AE000682149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C61E4BE2C743AE000682149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitStrike/Preview Content\"";
+				DEVELOPMENT_TEAM = WC95P7CK74;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzoftware.FitStrike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C61E4BF2C743AE000682149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FitStrike/Preview Content\"";
+				DEVELOPMENT_TEAM = WC95P7CK74;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzoftware.FitStrike;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2C61E4C12C743AE000682149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WC95P7CK74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzoftware.FitStrikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitStrike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitStrike";
+			};
+			name = Debug;
+		};
+		2C61E4C22C743AE000682149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WC95P7CK74;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzoftware.FitStrikeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FitStrike.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FitStrike";
+			};
+			name = Release;
+		};
+		2C61E4C42C743AE000682149 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WC95P7CK74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzoftware.FitStrikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitStrike;
+			};
+			name = Debug;
+		};
+		2C61E4C52C743AE000682149 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = WC95P7CK74;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = enzoftware.FitStrikeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FitStrike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C61E4942C743ADE00682149 /* Build configuration list for PBXProject "FitStrike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C61E4BB2C743AE000682149 /* Debug */,
+				2C61E4BC2C743AE000682149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C61E4BD2C743AE000682149 /* Build configuration list for PBXNativeTarget "FitStrike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C61E4BE2C743AE000682149 /* Debug */,
+				2C61E4BF2C743AE000682149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C61E4C02C743AE000682149 /* Build configuration list for PBXNativeTarget "FitStrikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C61E4C12C743AE000682149 /* Debug */,
+				2C61E4C22C743AE000682149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C61E4C32C743AE000682149 /* Build configuration list for PBXNativeTarget "FitStrikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C61E4C42C743AE000682149 /* Debug */,
+				2C61E4C52C743AE000682149 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C61E4912C743ADE00682149 /* Project object */;
+}
