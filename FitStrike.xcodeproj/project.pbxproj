@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2C26BF252C7D056A00FF8BAA /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26BF242C7D056A00FF8BAA /* RatingView.swift */; };
+		2C26BF262C7D056A00FF8BAA /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26BF242C7D056A00FF8BAA /* RatingView.swift */; };
+		2C26BF272C7D056A00FF8BAA /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26BF242C7D056A00FF8BAA /* RatingView.swift */; };
 		2C61E49D2C743ADE00682149 /* FitStrikeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E49C2C743ADE00682149 /* FitStrikeApp.swift */; };
 		2C61E49F2C743ADE00682149 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E49E2C743ADE00682149 /* ContentView.swift */; };
 		2C61E4A12C743AE000682149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C61E4A02C743AE000682149 /* Assets.xcassets */; };
@@ -20,10 +23,30 @@
 		2C61E4CB2C74619B00682149 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E4CA2C74619B00682149 /* ExerciseView.swift */; };
 		2C61E4CC2C74619B00682149 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E4CA2C74619B00682149 /* ExerciseView.swift */; };
 		2C61E4CD2C74619B00682149 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E4CA2C74619B00682149 /* ExerciseView.swift */; };
-		2C61E4DC2C7463D200682149 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2C61E4D82C7463D200682149 /* squat.mp4 */; };
-		2C61E4DD2C7463D200682149 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2C61E4D92C7463D200682149 /* burpee.mp4 */; };
-		2C61E4DE2C7463D200682149 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2C61E4DA2C7463D200682149 /* sun-salute.mp4 */; };
-		2C61E4DF2C7463D200682149 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2C61E4DB2C7463D200682149 /* step-up.mp4 */; };
+		2CD81FDD2C75C2EF00EF2F79 /* FitStrikeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D0D472C759D7300A291D2 /* FitStrikeHeader.swift */; };
+		2CD81FDE2C75C2F300EF2F79 /* FitStrikeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D0D472C759D7300A291D2 /* FitStrikeHeader.swift */; };
+		2CD81FDF2C75C2F400EF2F79 /* FitStrikeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D0D472C759D7300A291D2 /* FitStrikeHeader.swift */; };
+		2CD81FE12C75C91300EF2F79 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD81FE02C75C91300EF2F79 /* Exercise.swift */; };
+		2CD81FE22C75C91300EF2F79 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD81FE02C75C91300EF2F79 /* Exercise.swift */; };
+		2CD81FE32C75C91300EF2F79 /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD81FE02C75C91300EF2F79 /* Exercise.swift */; };
+		2CD81FE52C765CC100EF2F79 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD81FE42C765CC100EF2F79 /* DateExtension.swift */; };
+		2CD81FE62C765CC100EF2F79 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD81FE42C765CC100EF2F79 /* DateExtension.swift */; };
+		2CD81FE72C765CC100EF2F79 /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD81FE42C765CC100EF2F79 /* DateExtension.swift */; };
+		2CD81FE92C765EAB00EF2F79 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD81FE82C765EAB00EF2F79 /* ImageExtension.swift */; };
+		2CD81FEA2C765EAB00EF2F79 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD81FE82C765EAB00EF2F79 /* ImageExtension.swift */; };
+		2CD81FEB2C765EAB00EF2F79 /* ImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CD81FE82C765EAB00EF2F79 /* ImageExtension.swift */; };
+		2CD81FF82C78CD2A00EF2F79 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF42C78CD2900EF2F79 /* step-up.mp4 */; };
+		2CD81FF92C78CD2A00EF2F79 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF42C78CD2900EF2F79 /* step-up.mp4 */; };
+		2CD81FFA2C78CD2A00EF2F79 /* step-up.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF42C78CD2900EF2F79 /* step-up.mp4 */; };
+		2CD81FFB2C78CD2A00EF2F79 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF52C78CD2A00EF2F79 /* squat.mp4 */; };
+		2CD81FFC2C78CD2A00EF2F79 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF52C78CD2A00EF2F79 /* squat.mp4 */; };
+		2CD81FFD2C78CD2A00EF2F79 /* squat.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF52C78CD2A00EF2F79 /* squat.mp4 */; };
+		2CD81FFE2C78CD2A00EF2F79 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF62C78CD2A00EF2F79 /* sun-salute.mp4 */; };
+		2CD81FFF2C78CD2A00EF2F79 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF62C78CD2A00EF2F79 /* sun-salute.mp4 */; };
+		2CD820002C78CD2A00EF2F79 /* sun-salute.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF62C78CD2A00EF2F79 /* sun-salute.mp4 */; };
+		2CD820012C78CD2A00EF2F79 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF72C78CD2A00EF2F79 /* burpee.mp4 */; };
+		2CD820022C78CD2A00EF2F79 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF72C78CD2A00EF2F79 /* burpee.mp4 */; };
+		2CD820032C78CD2A00EF2F79 /* burpee.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2CD81FF72C78CD2A00EF2F79 /* burpee.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +67,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2C26BF242C7D056A00FF8BAA /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		2C61E4992C743ADE00682149 /* FitStrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitStrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C61E49C2C743ADE00682149 /* FitStrikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStrikeApp.swift; sourceTree = "<group>"; };
 		2C61E49E2C743ADE00682149 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -56,10 +80,14 @@
 		2C61E4B92C743AE000682149 /* FitStrikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStrikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2C61E4C62C74616B00682149 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		2C61E4CA2C74619B00682149 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
-		2C61E4D82C7463D200682149 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
-		2C61E4D92C7463D200682149 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
-		2C61E4DA2C7463D200682149 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
-		2C61E4DB2C7463D200682149 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		2C8D0D472C759D7300A291D2 /* FitStrikeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStrikeHeader.swift; sourceTree = "<group>"; };
+		2CD81FE02C75C91300EF2F79 /* Exercise.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		2CD81FE42C765CC100EF2F79 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		2CD81FE82C765EAB00EF2F79 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
+		2CD81FF42C78CD2900EF2F79 /* step-up.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "step-up.mp4"; sourceTree = "<group>"; };
+		2CD81FF52C78CD2A00EF2F79 /* squat.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = squat.mp4; sourceTree = "<group>"; };
+		2CD81FF62C78CD2A00EF2F79 /* sun-salute.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = "sun-salute.mp4"; sourceTree = "<group>"; };
+		2CD81FF72C78CD2A00EF2F79 /* burpee.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = burpee.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,10 +138,14 @@
 		2C61E49B2C743ADE00682149 /* FitStrike */ = {
 			isa = PBXGroup;
 			children = (
+				2CD820042C78CE4300EF2F79 /* Videos */,
 				2C61E49C2C743ADE00682149 /* FitStrikeApp.swift */,
 				2C61E4CE2C7461BD00682149 /* Views */,
 				2C61E4A02C743AE000682149 /* Assets.xcassets */,
 				2C61E4A22C743AE000682149 /* Preview Content */,
+				2CD81FE02C75C91300EF2F79 /* Exercise.swift */,
+				2CD81FE42C765CC100EF2F79 /* DateExtension.swift */,
+				2CD81FE82C765EAB00EF2F79 /* ImageExtension.swift */,
 			);
 			path = FitStrike;
 			sourceTree = "<group>";
@@ -137,10 +169,6 @@
 		2C61E4B62C743AE000682149 /* FitStrikeUITests */ = {
 			isa = PBXGroup;
 			children = (
-				2C61E4D92C7463D200682149 /* burpee.mp4 */,
-				2C61E4D82C7463D200682149 /* squat.mp4 */,
-				2C61E4DB2C7463D200682149 /* step-up.mp4 */,
-				2C61E4DA2C7463D200682149 /* sun-salute.mp4 */,
 				2C61E4B72C743AE000682149 /* FitStrikeUITests.swift */,
 				2C61E4B92C743AE000682149 /* FitStrikeUITestsLaunchTests.swift */,
 			);
@@ -153,8 +181,21 @@
 				2C61E49E2C743ADE00682149 /* ContentView.swift */,
 				2C61E4C62C74616B00682149 /* WelcomeView.swift */,
 				2C61E4CA2C74619B00682149 /* ExerciseView.swift */,
+				2C8D0D472C759D7300A291D2 /* FitStrikeHeader.swift */,
+				2C26BF242C7D056A00FF8BAA /* RatingView.swift */,
 			);
 			path = Views;
+			sourceTree = "<group>";
+		};
+		2CD820042C78CE4300EF2F79 /* Videos */ = {
+			isa = PBXGroup;
+			children = (
+				2CD81FF72C78CD2A00EF2F79 /* burpee.mp4 */,
+				2CD81FF52C78CD2A00EF2F79 /* squat.mp4 */,
+				2CD81FF42C78CD2900EF2F79 /* step-up.mp4 */,
+				2CD81FF62C78CD2A00EF2F79 /* sun-salute.mp4 */,
+			);
+			path = Videos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -220,6 +261,9 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
+				KnownAssetTags = (
+					New,
+				);
 				LastSwiftUpdateCheck = 1540;
 				LastUpgradeCheck = 1540;
 				TargetAttributes = {
@@ -261,12 +305,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C61E4DD2C7463D200682149 /* burpee.mp4 in Resources */,
 				2C61E4A42C743AE000682149 /* Preview Assets.xcassets in Resources */,
-				2C61E4DF2C7463D200682149 /* step-up.mp4 in Resources */,
-				2C61E4DC2C7463D200682149 /* squat.mp4 in Resources */,
-				2C61E4DE2C7463D200682149 /* sun-salute.mp4 in Resources */,
 				2C61E4A12C743AE000682149 /* Assets.xcassets in Resources */,
+				2CD820012C78CD2A00EF2F79 /* burpee.mp4 in Resources */,
+				2CD81FFB2C78CD2A00EF2F79 /* squat.mp4 in Resources */,
+				2CD81FFE2C78CD2A00EF2F79 /* sun-salute.mp4 in Resources */,
+				2CD81FF82C78CD2A00EF2F79 /* step-up.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +318,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD820022C78CD2A00EF2F79 /* burpee.mp4 in Resources */,
+				2CD81FFC2C78CD2A00EF2F79 /* squat.mp4 in Resources */,
+				2CD81FFF2C78CD2A00EF2F79 /* sun-salute.mp4 in Resources */,
+				2CD81FF92C78CD2A00EF2F79 /* step-up.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +329,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD820032C78CD2A00EF2F79 /* burpee.mp4 in Resources */,
+				2CD81FFD2C78CD2A00EF2F79 /* squat.mp4 in Resources */,
+				2CD820002C78CD2A00EF2F79 /* sun-salute.mp4 in Resources */,
+				2CD81FFA2C78CD2A00EF2F79 /* step-up.mp4 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,9 +344,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C61E4CB2C74619B00682149 /* ExerciseView.swift in Sources */,
+				2CD81FE52C765CC100EF2F79 /* DateExtension.swift in Sources */,
 				2C61E49F2C743ADE00682149 /* ContentView.swift in Sources */,
+				2C26BF252C7D056A00FF8BAA /* RatingView.swift in Sources */,
+				2CD81FDD2C75C2EF00EF2F79 /* FitStrikeHeader.swift in Sources */,
 				2C61E4C72C74616B00682149 /* WelcomeView.swift in Sources */,
 				2C61E49D2C743ADE00682149 /* FitStrikeApp.swift in Sources */,
+				2CD81FE12C75C91300EF2F79 /* Exercise.swift in Sources */,
+				2CD81FE92C765EAB00EF2F79 /* ImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,8 +359,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2CD81FE22C75C91300EF2F79 /* Exercise.swift in Sources */,
+				2CD81FE62C765CC100EF2F79 /* DateExtension.swift in Sources */,
 				2C61E4CC2C74619B00682149 /* ExerciseView.swift in Sources */,
+				2C26BF262C7D056A00FF8BAA /* RatingView.swift in Sources */,
+				2CD81FEA2C765EAB00EF2F79 /* ImageExtension.swift in Sources */,
 				2C61E4AE2C743AE000682149 /* FitStrikeTests.swift in Sources */,
+				2CD81FDE2C75C2F300EF2F79 /* FitStrikeHeader.swift in Sources */,
 				2C61E4C82C74616B00682149 /* WelcomeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -313,9 +375,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2C61E4CD2C74619B00682149 /* ExerciseView.swift in Sources */,
+				2CD81FE72C765CC100EF2F79 /* DateExtension.swift in Sources */,
 				2C61E4BA2C743AE000682149 /* FitStrikeUITestsLaunchTests.swift in Sources */,
+				2C26BF272C7D056A00FF8BAA /* RatingView.swift in Sources */,
+				2CD81FDF2C75C2F400EF2F79 /* FitStrikeHeader.swift in Sources */,
 				2C61E4C92C74616B00682149 /* WelcomeView.swift in Sources */,
 				2C61E4B82C743AE000682149 /* FitStrikeUITests.swift in Sources */,
+				2CD81FE32C75C91300EF2F79 /* Exercise.swift in Sources */,
+				2CD81FEB2C765EAB00EF2F79 /* ImageExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
