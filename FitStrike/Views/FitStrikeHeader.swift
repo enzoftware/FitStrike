@@ -8,15 +8,15 @@
 import SwiftUI
 
 struct FitStrikeHeader: View {
-    let exerciseName: String
+    let titleText: String
 
     var body: some View {
         VStack {
-            Text(exerciseName)
+            Text(titleText)
                 .font(.largeTitle)
             HStack {
+                Image(systemName: "hand.wave")
                 Image(systemName: "1.circle")
-                    .font(.largeTitle)
                 Image(systemName: "2.circle")
                 Image(systemName: "3.circle")
                 Image(systemName: "4.circle")
@@ -27,5 +27,5 @@ struct FitStrikeHeader: View {
 }
 
 #Preview(traits: .sizeThatFitsLayout) {
-    FitStrikeHeader(exerciseName: "Squat")
+    FitStrikeHeader(titleText: "Squat")
 }
