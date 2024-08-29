@@ -10,6 +10,16 @@
 		2C0403EA2C7D40A300E0D1D2 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0403E92C7D40A300E0D1D2 /* VideoPlayerView.swift */; };
 		2C0403EB2C7D40A300E0D1D2 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0403E92C7D40A300E0D1D2 /* VideoPlayerView.swift */; };
 		2C0403EC2C7D40A300E0D1D2 /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0403E92C7D40A300E0D1D2 /* VideoPlayerView.swift */; };
+		2C0403EE2C7EF4A400E0D1D2 /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0403ED2C7EF4A400E0D1D2 /* HistoryStoreDevData.swift */; };
+		2C0403EF2C7EF4A400E0D1D2 /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0403ED2C7EF4A400E0D1D2 /* HistoryStoreDevData.swift */; };
+		2C0403F02C7EF4A400E0D1D2 /* HistoryStoreDevData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0403ED2C7EF4A400E0D1D2 /* HistoryStoreDevData.swift */; };
+		2C0403F12C7EF5D000E0D1D2 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D05942E288FC802C5430EF /* HistoryView.swift */; };
+		2C0403F22C7EF5D000E0D1D2 /* HistoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D05942E288FC802C5430EF /* HistoryView.swift */; };
+		2C0403F32C7EF5DC00E0D1D2 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0524BA73B2EB85FFE9D97 /* HistoryStore.swift */; };
+		2C0403F42C7EF5DD00E0D1D2 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D0524BA73B2EB85FFE9D97 /* HistoryStore.swift */; };
+		2C0403F62C7FDEE000E0D1D2 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0403F52C7FDEE000E0D1D2 /* SuccessView.swift */; };
+		2C0403F72C7FDEE000E0D1D2 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0403F52C7FDEE000E0D1D2 /* SuccessView.swift */; };
+		2C0403F82C7FDEE000E0D1D2 /* SuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C0403F52C7FDEE000E0D1D2 /* SuccessView.swift */; };
 		2C26BF252C7D056A00FF8BAA /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26BF242C7D056A00FF8BAA /* RatingView.swift */; };
 		2C26BF262C7D056A00FF8BAA /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26BF242C7D056A00FF8BAA /* RatingView.swift */; };
 		2C26BF272C7D056A00FF8BAA /* RatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C26BF242C7D056A00FF8BAA /* RatingView.swift */; };
@@ -73,6 +83,8 @@
 
 /* Begin PBXFileReference section */
 		2C0403E92C7D40A300E0D1D2 /* VideoPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoPlayerView.swift; sourceTree = "<group>"; };
+		2C0403ED2C7EF4A400E0D1D2 /* HistoryStoreDevData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStoreDevData.swift; sourceTree = "<group>"; };
+		2C0403F52C7FDEE000E0D1D2 /* SuccessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SuccessView.swift; sourceTree = "<group>"; };
 		2C26BF242C7D056A00FF8BAA /* RatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RatingView.swift; sourceTree = "<group>"; };
 		2C61E4992C743ADE00682149 /* FitStrike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FitStrike.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C61E49C2C743ADE00682149 /* FitStrikeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStrikeApp.swift; sourceTree = "<group>"; };
@@ -162,6 +174,7 @@
 			isa = PBXGroup;
 			children = (
 				2C61E4A32C743AE000682149 /* Preview Assets.xcassets */,
+				2C0403ED2C7EF4A400E0D1D2 /* HistoryStoreDevData.swift */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
@@ -193,6 +206,7 @@
 				2C26BF242C7D056A00FF8BAA /* RatingView.swift */,
 				2C0403E92C7D40A300E0D1D2 /* VideoPlayerView.swift */,
 				45D05942E288FC802C5430EF /* HistoryView.swift */,
+				2C0403F52C7FDEE000E0D1D2 /* SuccessView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -367,6 +381,8 @@
 				2C61E49F2C743ADE00682149 /* ContentView.swift in Sources */,
 				2C26BF252C7D056A00FF8BAA /* RatingView.swift in Sources */,
 				2CD81FDD2C75C2EF00EF2F79 /* FitStrikeHeader.swift in Sources */,
+				2C0403EE2C7EF4A400E0D1D2 /* HistoryStoreDevData.swift in Sources */,
+				2C0403F62C7FDEE000E0D1D2 /* SuccessView.swift in Sources */,
 				2C61E4C72C74616B00682149 /* WelcomeView.swift in Sources */,
 				2C61E49D2C743ADE00682149 /* FitStrikeApp.swift in Sources */,
 				2CD81FE92C765EAB00EF2F79 /* ImageExtension.swift in Sources */,
@@ -385,6 +401,10 @@
 				2C61E4CC2C74619B00682149 /* ExerciseView.swift in Sources */,
 				2C26BF262C7D056A00FF8BAA /* RatingView.swift in Sources */,
 				2CD81FEA2C765EAB00EF2F79 /* ImageExtension.swift in Sources */,
+				2C0403F72C7FDEE000E0D1D2 /* SuccessView.swift in Sources */,
+				2C0403F32C7EF5DC00E0D1D2 /* HistoryStore.swift in Sources */,
+				2C0403EF2C7EF4A400E0D1D2 /* HistoryStoreDevData.swift in Sources */,
+				2C0403F12C7EF5D000E0D1D2 /* HistoryView.swift in Sources */,
 				2C0403EB2C7D40A300E0D1D2 /* VideoPlayerView.swift in Sources */,
 				2C61E4AE2C743AE000682149 /* FitStrikeTests.swift in Sources */,
 				2CD81FDE2C75C2F300EF2F79 /* FitStrikeHeader.swift in Sources */,
@@ -397,11 +417,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C0403F02C7EF4A400E0D1D2 /* HistoryStoreDevData.swift in Sources */,
+				2C0403F22C7EF5D000E0D1D2 /* HistoryView.swift in Sources */,
 				2C61E4CD2C74619B00682149 /* ExerciseView.swift in Sources */,
 				2CD81FE72C765CC100EF2F79 /* DateExtension.swift in Sources */,
 				2C61E4BA2C743AE000682149 /* FitStrikeUITestsLaunchTests.swift in Sources */,
 				2C26BF272C7D056A00FF8BAA /* RatingView.swift in Sources */,
+				2C0403F82C7FDEE000E0D1D2 /* SuccessView.swift in Sources */,
 				2CD81FDF2C75C2F400EF2F79 /* FitStrikeHeader.swift in Sources */,
+				2C0403F42C7EF5DD00E0D1D2 /* HistoryStore.swift in Sources */,
 				2C61E4C92C74616B00682149 /* WelcomeView.swift in Sources */,
 				2C61E4B82C743AE000682149 /* FitStrikeUITests.swift in Sources */,
 				2CD81FEB2C765EAB00EF2F79 /* ImageExtension.swift in Sources */,
