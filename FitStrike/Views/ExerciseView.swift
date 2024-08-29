@@ -11,8 +11,31 @@ import SwiftUI
 struct ExerciseView: View {
     let index: Int
 
+    @State private var rating = 0
+    @State private var showSuccess = false
+    @Binding var selectedTab: Int
+
     var exercise: Exercise {
         Exercise.exercises[index]
+    }
+
+    var lastExercise: Bool {
+        index + 1 == Exercise.exercises.count
+    }
+
+    var startButton: some View {
+        Button("Start") {}
+    }
+
+    /// Tapping *Done* goes to the next `ExerciseView`, and tapping *Done* in the last `ExerciseView` goes to `WelcomeView`.
+    var doneButton: some View {
+        Button("Done") {
+            if lastExercise {
+                showSuccess.toggle()
+            } else {
+                selectedTab += 1
+            }
+        }
     }
 
     let interval: TimeInterval = 30
@@ -20,8 +43,11 @@ struct ExerciseView: View {
     var body: some View {
         GeometryReader { geometry in
             VStack {
-                FitStrikeHeader(titleText: exercise.exerciseName)
-                    .padding(.bottom)
+                FitStrikeHeader(
+                    titleText: exercise.exerciseName,
+                    selectedTab: $selectedTab
+                )
+                .padding(.bottom)
 
                 VideoPlayerView(
                     height: geometry.size.height * 0.45,
@@ -30,11 +56,16 @@ struct ExerciseView: View {
 
                 Text(Date().addingTimeInterval(interval), style: .timer)
                     .font(.system(size: geometry.size.height * 0.07))
-                Button("Start/Done button") {}
-                    .font(.title3)
-                    .padding()
+                HStack(spacing: 150) {
+                    startButton
+                    doneButton.sheet(isPresented: $showSuccess, content: {
+                        SuccessView(selectedTab: $selectedTab)
+                    })
+                }
+                .font(.title3)
+                .padding()
 
-                RatingView().padding()
+                RatingView(rating: $rating).padding()
 
                 Spacer()
                 Button("History") {}
@@ -45,5 +76,5 @@ struct ExerciseView: View {
 }
 
 #Preview {
-    ExerciseView(index: 0)
+    ExerciseView(index: 3, selectedTab: .constant(3))
 }

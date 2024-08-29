@@ -3,17 +3,19 @@ import SwiftUI
 struct HistoryView: View {
     let history = HistoryStore()
 
+    @Binding var showHistory: Bool
+
     var body: some View {
         ZStack(alignment: .topTrailing) {
-
             Button(
-                action: {},
+                action: {
+                    showHistory.toggle()
+                },
                 label: {
                     Image(systemName: "xmark.circle")
                 }
             )
             .font(.title)
-            .padding(.trailing)
 
             VStack {
                 Text("History")
@@ -38,5 +40,5 @@ struct HistoryView: View {
 }
 
 #Preview {
-    HistoryView()
+    HistoryView(showHistory: .constant(true))
 }
