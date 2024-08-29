@@ -14,6 +14,11 @@ struct SuccessView: View {
     Keep up the great work!
     """
 
+    @Environment(\.dismiss)
+    var dismiss
+
+    @Binding var selectedTab: Int
+
     var body: some View {
         ZStack {
             VStack {
@@ -35,14 +40,17 @@ struct SuccessView: View {
 
             VStack {
                 Spacer()
-                Button(action: {}, label: {
+                Button(action: {
+                    dismiss()
+                    selectedTab = 9
+                }, label: {
                     Text("Continue")
                 })
             }
-        }
+        }.presentationDetents([.medium, .large])
     }
 }
 
 #Preview {
-    SuccessView()
+    SuccessView(selectedTab: .constant(3))
 }
