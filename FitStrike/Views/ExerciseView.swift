@@ -11,8 +11,14 @@ import SwiftUI
 struct ExerciseView: View {
     let index: Int
 
+    @EnvironmentObject var history: HistoryStore
+
     @State private var rating = 0
     @State private var showSuccess = false
+    @State private var timerDone = false
+    @State private var showTimer = false
+    @State private var showHistory = false
+
     @Binding var selectedTab: Int
 
     var exercise: Exercise {
@@ -24,12 +30,17 @@ struct ExerciseView: View {
     }
 
     var startButton: some View {
-        Button("Start") {}
+        Button("Start") {
+            showTimer.toggle()
+        }
     }
 
     /// Tapping *Done* goes to the next `ExerciseView`, and tapping *Done* in the last `ExerciseView` goes to `WelcomeView`.
     var doneButton: some View {
         Button("Done") {
+            history.addDoneExercise(Exercise.exercises[index].exerciseName)
+            timerDone = false
+            showTimer.toggle()
             if lastExercise {
                 showSuccess.toggle()
             } else {
@@ -42,7 +53,7 @@ struct ExerciseView: View {
 
     var body: some View {
         GeometryReader { geometry in
-            VStack {
+            VStack(spacing: 0) {
                 FitStrikeHeader(
                     titleText: exercise.exerciseName,
                     selectedTab: $selectedTab
@@ -54,27 +65,38 @@ struct ExerciseView: View {
                     videoName: exercise.videoName
                 )
 
-                Text(Date().addingTimeInterval(interval), style: .timer)
-                    .font(.system(size: geometry.size.height * 0.07))
+//                Text(Date().addingTimeInterval(interval), style: .timer)
+//                    .font(.system(size: geometry.size.height * 0.07))
+
                 HStack(spacing: 150) {
                     startButton
-                    doneButton.sheet(isPresented: $showSuccess, content: {
-                        SuccessView(selectedTab: $selectedTab)
-                    })
+                    doneButton
+                        .disabled(!timerDone)
+                        .sheet(isPresented: $showSuccess, content: {
+                            SuccessView(selectedTab: $selectedTab)
+                        })
                 }
                 .font(.title3)
                 .padding()
 
-                RatingView(rating: $rating).padding()
+                if showTimer {
+                    TimerView(size: geometry.size.height * 0.05, timerDone: $timerDone)
+                }
 
                 Spacer()
-                Button("History") {}
-                    .padding(.bottom)
+                RatingView(rating: $rating).padding()
+                Button("History") {
+                    showHistory.toggle()
+                }
+                .padding(.bottom)
+                .sheet(isPresented: $showHistory, content: {
+                    HistoryView(showHistory: $showHistory)
+                })
             }
         }
     }
 }
 
 #Preview {
-    ExerciseView(index: 3, selectedTab: .constant(3))
+    ExerciseView(index: 3, selectedTab: .constant(3)).environmentObject(HistoryStore())
 }

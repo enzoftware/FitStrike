@@ -10,7 +10,7 @@ import SwiftUI
 struct RatingView: View {
     @Binding var rating: Int
 
-    let maximumRating = 7
+    let maximumRating = 5
 
     let onColor = Color.red
     let offColor = Color.gray

@@ -38,6 +38,9 @@
 		2C61E4CD2C74619B00682149 /* ExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E4CA2C74619B00682149 /* ExerciseView.swift */; };
 		2C6A0AE22C812A6000AC25F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E49E2C743ADE00682149 /* ContentView.swift */; };
 		2C6A0AE32C812A6100AC25F9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C61E49E2C743ADE00682149 /* ContentView.swift */; };
+		2C6A0AE72C85771E00AC25F9 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A0AE62C85771E00AC25F9 /* TimerView.swift */; };
+		2C6A0AE82C85771E00AC25F9 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A0AE62C85771E00AC25F9 /* TimerView.swift */; };
+		2C6A0AE92C85771E00AC25F9 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C6A0AE62C85771E00AC25F9 /* TimerView.swift */; };
 		2CD81FDD2C75C2EF00EF2F79 /* FitStrikeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D0D472C759D7300A291D2 /* FitStrikeHeader.swift */; };
 		2CD81FDE2C75C2F300EF2F79 /* FitStrikeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D0D472C759D7300A291D2 /* FitStrikeHeader.swift */; };
 		2CD81FDF2C75C2F400EF2F79 /* FitStrikeHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C8D0D472C759D7300A291D2 /* FitStrikeHeader.swift */; };
@@ -100,6 +103,7 @@
 		2C61E4B92C743AE000682149 /* FitStrikeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStrikeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2C61E4C62C74616B00682149 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		2C61E4CA2C74619B00682149 /* ExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseView.swift; sourceTree = "<group>"; };
+		2C6A0AE62C85771E00AC25F9 /* TimerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
 		2C8D0D472C759D7300A291D2 /* FitStrikeHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FitStrikeHeader.swift; sourceTree = "<group>"; };
 		2CD81FE42C765CC100EF2F79 /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
 		2CD81FE82C765EAB00EF2F79 /* ImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExtension.swift; sourceTree = "<group>"; };
@@ -201,6 +205,7 @@
 		2C61E4CE2C7461BD00682149 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				2C6A0AE62C85771E00AC25F9 /* TimerView.swift */,
 				2C61E49E2C743ADE00682149 /* ContentView.swift */,
 				2C61E4C62C74616B00682149 /* WelcomeView.swift */,
 				2C61E4CA2C74619B00682149 /* ExerciseView.swift */,
@@ -378,6 +383,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6A0AE72C85771E00AC25F9 /* TimerView.swift in Sources */,
 				2C61E4CB2C74619B00682149 /* ExerciseView.swift in Sources */,
 				2CD81FE52C765CC100EF2F79 /* DateExtension.swift in Sources */,
 				2C61E49F2C743ADE00682149 /* ContentView.swift in Sources */,
@@ -399,6 +405,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C6A0AE82C85771E00AC25F9 /* TimerView.swift in Sources */,
 				2CD81FE62C765CC100EF2F79 /* DateExtension.swift in Sources */,
 				2C61E4CC2C74619B00682149 /* ExerciseView.swift in Sources */,
 				2C6A0AE22C812A6000AC25F9 /* ContentView.swift in Sources */,
@@ -426,6 +433,7 @@
 				2CD81FE72C765CC100EF2F79 /* DateExtension.swift in Sources */,
 				2C61E4BA2C743AE000682149 /* FitStrikeUITestsLaunchTests.swift in Sources */,
 				2C26BF272C7D056A00FF8BAA /* RatingView.swift in Sources */,
+				2C6A0AE92C85771E00AC25F9 /* TimerView.swift in Sources */,
 				2C0403F82C7FDEE000E0D1D2 /* SuccessView.swift in Sources */,
 				2CD81FDF2C75C2F400EF2F79 /* FitStrikeHeader.swift in Sources */,
 				2C0403F42C7EF5DD00E0D1D2 /* HistoryStore.swift in Sources */,
