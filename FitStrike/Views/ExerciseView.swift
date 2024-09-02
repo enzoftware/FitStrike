@@ -13,7 +13,6 @@ struct ExerciseView: View {
 
     @EnvironmentObject var history: HistoryStore
 
-    @State private var rating = 0
     @State private var showSuccess = false
     @State private var timerDone = false
     @State private var showTimer = false
@@ -84,7 +83,9 @@ struct ExerciseView: View {
                 }
 
                 Spacer()
-                RatingView(rating: $rating).padding()
+
+                RatingView(exerciseIndex: index).padding()
+
                 Button("History") {
                     showHistory.toggle()
                 }

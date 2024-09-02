@@ -11,7 +11,9 @@ import SwiftUI
 struct FitStrikeApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().onAppear(perform: {
+                debugPrint(URL.documentsDirectory)
+            })
         }
     }
 }
