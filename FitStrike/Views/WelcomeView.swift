@@ -33,9 +33,11 @@ struct WelcomeView: View {
                             .font(.headline)
                     }
                     Image("step-up")
-                        .resizedToFill(width: 240, height: 240)
+                        .resizedToFill(width: 200, height: 200)
                         .clipShape(Circle())
                 }
+                .padding()
+
                 Button(
                     action: {
                         selectedTab = 0

@@ -11,7 +11,7 @@ struct RatingView: View {
     let exerciseIndex: Int
 
     /// Here you hold rating locally and set up ratings to be a string of four zeros.
-    @AppStorage("ratings") private var storageRatings = ""
+    @AppStorage("ratings") private var storageRatings: String = ""
 
     @State private var rating = 0
 
@@ -48,7 +48,7 @@ struct RatingView: View {
         HStack {
             ForEach(0 ..< maximumRating, id: \.self) { index in
 
-                let ratingReached = index < rating
+                let ratingReached = index <= rating
                 let color = ratingReached ? onColor : offColor
 
                 Image(systemName: "waveform.path.ecg")

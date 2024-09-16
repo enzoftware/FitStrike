@@ -12,13 +12,11 @@ struct ContentView: View {
 
     var body: some View {
         TabView(selection: $selectedTab) {
-
             WelcomeView(selectedTab: $selectedTab).tag(9)
             ForEach(Exercise.exercises.indices, id: \.self) { index in
                 ExerciseView(index: index, selectedTab: $selectedTab).tag(index)
             }
         }
-        .environmentObject(HistoryStore())
         .tabViewStyle(PageTabViewStyle(indexDisplayMode: .never))
         .indexViewStyle(PageIndexViewStyle(backgroundDisplayMode: .never))
     }
